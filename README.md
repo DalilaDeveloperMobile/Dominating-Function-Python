@@ -82,7 +82,7 @@ exibir_poema(
     ano=1999,
 )
 ```
-### <img src="https://gifs.eco.br/wp-content/uploads/2021/06/gifs-de-coracao-7.gif" width="30px"> Parametros Somente Por Posicao Copy:
+### <img src="https://gifs.eco.br/wp-content/uploads/2021/06/gifs-de-coracao-7.gif" width="30px"> Parâmetro Somente Por Posição Copy:
 ```
 def criar_carro(modelo, ano, placa, /, marca, motor, combustivel):
     print(modelo, ano, placa, marca, motor, combustivel)
@@ -91,7 +91,7 @@ def criar_carro(modelo, ano, placa, /, marca, motor, combustivel):
 criar_carro("Palio", 1999, "ABC-1234", marca="Fiat", motor="1.0", combustivel="Gasolina")
 criar_carro(modelo="Palio", ano=1999, placa="ABC-1234", marca="Fiat", motor="1.0", combustivel="Gasolina")  # inválido
 ```
-### <img src="https://gifs.eco.br/wp-content/uploads/2021/06/gifs-de-coracao-7.gif" width="30px"> Parametros Somente Por Nome:
+### <img src="https://gifs.eco.br/wp-content/uploads/2021/06/gifs-de-coracao-7.gif" width="30px"> Parâmetro Somente Por Nome:
 ```
 def criar_carro(modelo, ano, placa, /, *, marca, motor, combustivel):
     print(modelo, ano, placa, marca, motor, combustivel)
